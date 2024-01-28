@@ -100,6 +100,6 @@ function update() {
     requestAnimationFrame(update);
 }
 
-function lerp(current, target, smoothness) {
+function lerp(current, target, smoothness) { 
     return current + (target - current) * smoothness;
 }

@@ -11,3 +11,5 @@ window.wallpaperPropertyListener = {
         }
     },
 };
+
+window.wallpaperRegisterMediaPlaybackListener(wallpaperMediaPlaybackListener);
