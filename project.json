@@ -1,0 +1,65 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Another Osage is here",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"audiovisualizerypos" : 
+			{
+				"fraction" : true,
+				"index" : 1,
+				"max" : 100,
+				"min" : 0,
+				"order" : 101,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Audio Visualizer Y Pos",
+				"type" : "slider",
+				"value" : 100
+			},
+			"backgroundbrightness" : 
+			{
+				"fraction" : true,
+				"index" : 0,
+				"max" : 100,
+				"min" : 0,
+				"order" : 100,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Background Brightness",
+				"type" : "slider",
+				"value" : 100
+			},
+			"enabledragging" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Enable Dragging",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.jpg",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"snapshotformat" : -1,
+	"snapshotoverlay" : "",
+	"tags" : [ "Anime" ],
+	"title" : "Inabakumori Relayouter",
+	"type" : "web",
+	"version" : 2,
+	"visibility" : "public",
+	"workshopid" : "3148204491",
+	"workshopurl" : "steam://url/CommunityFilePage/3148204491"
+}

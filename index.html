@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="backgroundScroller">
+    </div>
+    <canvas id="audiovisualizer"></canvas>
+    <div id="timeDisplay">
+        <div id="time">12:100PM</div>
+        <div id="date">
+            hanglasa
+        </div>
+    </div>
+    <div id="timeDisplayBigger">
+        <div id="time1">12:100PM</div>
+        <div id="date1">
+            hanglasa
+        </div>
+    </div>
+    <div id="pageSelector">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+
+    <div id="calendar-wrapper">
+        <div id="calendar-header">
+            <div id="monthDisplay">JANUARY</div>
+            <div id="wholeDate">January 27, 2024</div>
+        </div>
+        <div class="weekdays-header">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+        </div>
+        <div id="days-wrapper">
+        </div>
+    </div>
+
+    <div id="media-wrapper">
+        <div id="media-image">
+            <i class="fa-solid fa-repeat" id="switch-menu"></i>
+        </div>
+        <div id="media-properties">
+            <div id="media-title">Not Playing Music</div>
+            <div id="media-artist">-</div>
+            <div class="slider-wrapper">
+                <div class="media-time">
+                    <div id="time-elapsed">--:--</div>
+                    <div id="song-duration">--:--</div>
+                </div>
+                <input type="range" id="media-slider" min="0" max="100">
+            </div>
+            <div id="media-buttons">
+                <i class="fa-solid fa-backward-step" id="media-previous"></i>
+                <i class="fa-solid fa-play" id="media-play"></i>
+                <i class="fa-solid fa-pause" id="media-pause"></i>
+                <i class="fa-solid fa-forward-step" id="media-next"></i>
+            </div>
+        </div>
+        <div id="media-playlist" class="hide-properties">
+            <div class="media-header">
+                <i id="media-left" class="fa-solid fa-angle-left"></i>
+                <p>Inabakumori Songs</p>
+                <i id="media-right" class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="media-playlist-list">
+                <div id="song1">a</div>
+                <div id="song2">a</div>
+                <div id="song3">a</div>
+                <div id="song4">a</div>
+                <div id="song5">a</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/b9c1de485e.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<script src="calendar.js"></script>
+<script src="timeupdate.js"></script>
+<script src="audioVisualizer.js"></script>
+<script src="mediaListener.js"></script>
+<script src="applyProperties.js"></script>
+</html>
